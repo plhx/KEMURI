@@ -8,7 +8,7 @@ kmr_push:
 	pushl	$0x21646c72
 	pushl	$0x6f77202c
 	pushl	$0x6f6c6c65
-	pushl	$0x48
+	pushl	$0x48000000
 	addl	$0x03,%esp
 
 kmr_xor:
